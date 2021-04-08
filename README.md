@@ -1,6 +1,9 @@
 # HashQLi
 HashQLi is tool to Decrypt Md5 hash Easily 
 Fastest Tool To Decrypt MD5 Hash
+
+Desined For Decrypt Md5 Hash You Get During Sql Injection
+it will Decrypt Hashes R/t Sql Injection And Normal MD5 hashes
  <p>
  <a href="https://www.youtube.com/c/indiancybertroops">
     <img align="left" alt="Indian Cyber Troops YouTube" width="24px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.2.0/icons/youtube.svg" />
