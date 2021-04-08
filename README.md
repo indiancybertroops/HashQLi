@@ -32,7 +32,7 @@ Easy To Execue
 Fastest Decryper
 Low Bandwith/Data Consume
 # Main HashQLi Image
-![](Framework.PNG)
+![](framework.PNG)
 # Installation :
 > clone via git clone
 
