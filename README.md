@@ -20,7 +20,6 @@ it will Decrypt Hashes R/t Sql Injection And Normal MD5 hashes
    ![Profile Views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/indiancybertroopsy/&title=Profile%20Views)
 
 
-![](Hashqli.PNG)
 
 ### Team Indian Cyber Troops:
 >Created By : Krishanu Sharma 
@@ -48,6 +47,10 @@ chmod +777 *
 ```
 bash main
 ```
+
+#Single HashQLi Image
+![](Hashqli.PNG)
+
 ## Commands To Execute Single Hash Deceypter (separatey)
 > As Your Comfort
 ```
