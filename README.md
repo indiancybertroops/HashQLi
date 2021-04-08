@@ -17,7 +17,7 @@ Fastest Tool To Decrypt MD5 Hash
    ![Profile Views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/indiancybertroopsy/&title=Profile%20Views)
 
 
-![](HashQLi.png)
+![](Hashqli.PNG)
 
 ### Team Indian Cyber Troops:
 >Created By : Krishanu Sharma 
