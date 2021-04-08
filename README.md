@@ -46,8 +46,25 @@ cd HashQLi
 chmod +777 *
 ```
 ```
-./HashQLi
+bash main
 ```
+## Commands To Execute Single Hash Deceypter (separatey)
+> As Your Comfort
+```
+chmod +777 *
+```
+```
+bash SingleHashQLi
+```
+## Commands To Execute Multi Hash Deceypter (separatey)
+> As Your Comfort
+```
+chmod +777 *
+```
+```
+bash MultiHashQLi
+```
+
 # Github Status
 [![Stats](https://github-stats-alpha.vercel.app/api/?username=indiancybertroops&cc=fff&tc=DF7431&ic=DF7431 "Stats")](https://github.com/indiancybertroops "Stats")<br>
 
