@@ -31,7 +31,8 @@ Designed In Bash(shell scripting)
 Easy To Execue
 Fastest Decryper
 Low Bandwith/Data Consume
-
+# Main HashQLi Image
+![](Framework.PNG)
 # Installation :
 > clone via git clone
 
@@ -59,6 +60,9 @@ chmod +777 *
 ```
 bash SingleHashQLi
 ```
+# Multi HashQLi Image
+![](multi.PNG)
+
 ## Commands To Execute Multi Hash Deceypter (separatey)
 > As Your Comfort
 ```
