@@ -49,7 +49,7 @@ chmod +777 *
 bash main
 ```
 
-#Single HashQLi Image
+# Single HashQLi Image
 ![](Hashqli.PNG)
 
 ## Commands To Execute Single Hash Deceypter (separatey)
