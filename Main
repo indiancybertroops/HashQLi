@@ -80,35 +80,6 @@ echo -e "              |\033[7;32m Multi HashQLi Decrypter ${N}|\n"
                  fi
                  done
             ;;
-             "MD5 Decrypter With New Api")
-            clear
-N='\033[0m'
-R='\033[0;31m'
-G='\033[0;32m'
-O='\033[0;33m'
-  echo -e "
-${O}██   ██  █████  ███████ ██   ██  ██████  ██      ██ 
-${N}██   ██ ██   ██ ██      ██   ██ ██    ██ ██      ██ 
-███████ ███████ ███████ ███████ ██    ██ ██      ██ 
-${R}██   ██ ██   ██      ██ ██   ██ ██ ▄▄ ██ ██      ██ 
-${O}██   ██ ██   ██ ███████ ██   ██  ██████  ███████ ██
-${N}Coded By Krishanu Sharma
-${G}Instagram.com/krishanuIND 
-${G}Twitter.com/krishanuIND"
-
-
-read -p "[+] Hash: " hash
-                 dec=$(curl -s "https://md5decrypt.net/Api/api.php?hash=${hash}&hash_type=md5&email=deanna_abshire@proxymail.eu&code=1152464b80a61728")
-                 if [[ "$dec" = "" ]]
-                 then
-                   echo -e "${R}Failed Not Found hash${N}"
-                 else
-                   echo "Result: $dec"
-                 fi
-            ;;
-            "Exit")
-            break
-            ;;
             *) echo "invalid option $REPLY";;
             esac
             done
