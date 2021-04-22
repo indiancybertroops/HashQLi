@@ -98,7 +98,7 @@ ${G}Instagram.com/krishanuIND
 ${G}Twitter.com/krishanuIND"
 echo -e "              |\033[7;37m Indian Cyber Troops ${N}|\n"
 echo -e "              |\033[7;32m MD5 Decrypter With New Api (single) ${N}|\n"
-                 read -p "[Root@krishanu] list With Md5 Hash Ex:md5.txt  #: " file
+                 read -p "[Root@krishanu] Enter Hash Here  #: " file
                  for hash in `cat $file`
                  do
                  dec=$(curl -A "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0" --max-time $time_out -s "https://md5decrypt.net/Api/api.php?hash=${hash}&hash_type=md5&email=deanna_abshire@proxymail.eu&code=1152464b80a61728")
