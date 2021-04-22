@@ -18,7 +18,7 @@ echo -e "              |\033[7;37m Indian Cyber Troops ${N}|\n"
 echo -e "              |\033[7;32m Multi HashQLi Decrypter ${N}|\n"
 echo ""
 PS3='root@HashQLi:'
-options=( "Single Hash Decrypter" "Multi Hash Decrypter" "Exit"
+options=( "Single Hash Decrypter" "Multi Hash Decrypter" "MD5 Decrypter With New Api" "Exit"
 )
 select opt in "${options[@]}"
 do
@@ -72,6 +72,36 @@ echo -e "              |\033[7;32m Multi HashQLi Decrypter ${N}|\n"
                  for hash in `cat $file`
                  do
                  dec=$(curl -A "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0" --max-time $time_out -s "http://www.nitrxgen.net/md5db/${hash}")
+                 if [ "$dec" = "" ];then
+                    echo "[?] Not Cracked: ${hash} "
+                 else [ "$dec" = "[[:punct:][:alnum:]]*" ]
+                     echo "$dec" >> cracked-$list.txt
+                     echo "[!] Cracked: ${hash} $del $dec"
+                 fi
+                 done
+            ;;
+             "MD5 Decrypter With New Api")
+            clear
+N='\033[0m'
+R='\033[0;31m'
+G='\033[0;32m'
+O='\033[0;33m'
+  echo -e "
+${O}██   ██  █████  ███████ ██   ██  ██████  ██      ██ 
+${N}██   ██ ██   ██ ██      ██   ██ ██    ██ ██      ██ 
+███████ ███████ ███████ ███████ ██    ██ ██      ██ 
+${R}██   ██ ██   ██      ██ ██   ██ ██ ▄▄ ██ ██      ██ 
+${O}██   ██ ██   ██ ███████ ██   ██  ██████  ███████ ██
+
+${N}Coded By Krishanu Sharma
+${G}Instagram.com/krishanuIND 
+${G}Twitter.com/krishanuIND"
+echo -e "              |\033[7;37m Indian Cyber Troops ${N}|\n"
+echo -e "              |\033[7;32m MD5 Decrypter With New Api (single) ${N}|\n"
+                 read -p "[Root@krishanu] list With Md5 Hash Ex:md5.txt  #: " file
+                 for hash in `cat $file`
+                 do
+                 dec=$(curl -A "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0" --max-time $time_out -s "https://md5decrypt.net/Api/api.php?hash=${hash}&hash_type=md5&email=deanna_abshire@proxymail.eu&code=1152464b80a61728")
                  if [ "$dec" = "" ];then
                     echo "[?] Not Cracked: ${hash} "
                  else [ "$dec" = "[[:punct:][:alnum:]]*" ]
